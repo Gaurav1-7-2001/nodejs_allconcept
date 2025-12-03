@@ -11,7 +11,7 @@ const authMiddleware=passport.authenticate('local',{session:false})
 
 const postRoutes=require('./routes/postRoutes');
 app.use('/post',postRoutes);
-
+//comment
 app.get('/',(req,res)=>{
     res.send('Welcome to Pagination page');
 })
